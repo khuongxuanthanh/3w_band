@@ -84,6 +84,8 @@ html {
     display: inline-block;
     margin-top: 15px;
     text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
