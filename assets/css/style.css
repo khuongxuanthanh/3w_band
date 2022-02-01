@@ -97,6 +97,7 @@ html {
 .btn-sub {
     float: right;
     border: none;
+    font-size: 16px;
 }
 
 .main {
@@ -360,6 +361,7 @@ html {
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
+    font-size: 16px;
     outline: none;
 }
 
