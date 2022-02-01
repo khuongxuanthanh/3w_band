@@ -198,20 +198,21 @@ html {
     background: url('https://www.w3schools.com/w3images/ny.jpg') top center / cover no-repeat;
 }
 
-.text-content {
+.slider .text-content {
     position: absolute;
     bottom: 48px;
     color: #fff;
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 1px #000;
 }
 
-.text-heading {
+.slider .text-heading {
     font-weight: 500;
     font-size: 24px;
 }
 
-.text-description {
+.slider .text-description {
     font-size: 15px;
     margin-top: 25px;
 }
@@ -508,14 +509,14 @@ html {
 }
 
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     #header .search-btn-mobile {
         display: none;
     }
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     #header .search-btn-mobile {
         display: none;
     }
@@ -526,7 +527,7 @@ html {
 }
 
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
     .s-full-width {
         width: 100%;
